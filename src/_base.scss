@@ -127,7 +127,8 @@ main {
 }
 
 #content {
-    @include setDimensions(940px, 20px auto);
+    width: 940px;
+    margin:  20px auto;
 
     @include largeSizeDeviceMediaStyle(959px) {
 		width:inherit;
